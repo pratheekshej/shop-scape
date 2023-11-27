@@ -1,0 +1,31 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 20px;
+  row-gap: 50px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f8f8f8;
+  font-size: 24px;
+  margin-top: 25px;
+
+  &.error {
+    color: #552121;
+    background-color: #f0f0f0;
+  }
+
+  .loading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+  }
+}

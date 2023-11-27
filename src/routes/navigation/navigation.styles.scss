@@ -1,0 +1,59 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  padding-top: 15px;
+  padding-bottom: 12px;
+
+  background: linear-gradient(to bottom, #000, #052903);
+  color: #fff;
+  box-shadow: 0px 0px 35px #dfdfdf;
+  z-index: 4;
+  top: 0;
+
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+
+  .logo-container {
+    height: 100%;
+    padding: 15px 15px;
+    padding-right: 0;
+    color: #fff;
+
+    h1 {
+      font-size: 18px;
+    }
+  }
+
+  .nav-links-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+    margin-left: 25px;
+
+    .nav-link {
+      padding: 0px 15px;
+      cursor: pointer;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: auto;
+  }
+}
+
+.router-outlet {
+  margin-top: 75px;
+  padding: 20px 40px 20px;
+}
