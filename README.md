@@ -23,3 +23,5 @@ Follow the below steps to run and build the code: -
 3) To build the project, hit [npm run build] which will create a dist folder with the build inside and this can be serverd using live servers.
 
 the project will by default be serverd at the address: http://localhost:5173
+
+The app has been deployed in netlify and can be accessed at the link: https://shop-scape.netlify.app/
